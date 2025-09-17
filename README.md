@@ -10,6 +10,7 @@ Data comes from [Baseball Reference](https://www.baseball-reference.com/)
 ## Methodology 
 - Built a system of differential equations based on a **dual susceptible-infected (SIS) model** representing interaction between hitters and pitchers
 - Performed an eigenvalue approach that finds the equilibria of the differential equations and the Jacobian matrix at these points
+- Used real league rates to determine model parameters
 - Created two simulations, one with hitters being initially dominant and initially struggling
 
 ## Results
