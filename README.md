@@ -3,13 +3,18 @@
 ## Overview 
 This project is an analysis of the Major League Baseball matchup between hitters attempting to overcome the frustration and struggles when facing pitchers using **mathematical models**.
 
-The goal of this study is to determine the maximum number of "dominant" atters in Major League Baseball to optimize run production and league revenue.
+The goal of this study is to determine the maximum number of "dominant" hitters in Major League Baseball to optimize run production and league revenue.
 
 Data comes from [Baseball Reference](https://www.baseball-reference.com/)
 
 ## Methodology 
-- Built a dual susceptible-infected (SIS) model representing hitters and pitchers interacting with each other
-- 
+- Built a **dual susceptible-infected (SIS) model** representing hitters and pitchers interacting with each other
+- Performed an eigenvalue approach that 
 
 ## Results
+- For each simulation, the population of struggling hitters maximizes while the population of struggling and dominant pitchers mediates.
 - 
+
+## Limitations
+- **Biased Parameters:** The set parameters could have been too pitcher-friendly
+- **Hitting Success Rate:** Hitters in the struggling population are not actually struggling, as the rate of success for hitting is much lower compared to other sports.
